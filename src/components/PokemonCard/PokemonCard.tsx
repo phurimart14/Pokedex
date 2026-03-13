@@ -1,7 +1,4 @@
-import type {
-  PokemonDetailResponse,
-  Type,
-} from "../../interface/pokemonDetail";
+import type { Type } from "../../interface/pokemonDetail";
 import { typeColor } from "../../utils/typesColor";
 import { Link } from "react-router-dom";
 

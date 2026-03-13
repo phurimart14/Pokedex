@@ -8,9 +8,8 @@ import type { PokemonDetailResponse } from "../../interface/pokemonDetail";
 const useSearchForm = () => {
   const {
     register,
-    handleSubmit,
     watch,
-    formState: { errors },
+    formState: {},
   } = useForm();
 
   const { setFetchPokemonList, fetchPokemon, setPokemonList } =
