@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { pokemonListService, pokemonDetailService } from "../../service";
 import { useForm } from "react-hook-form";
 import { usePokemonListStore } from "../../store/pokemonList";

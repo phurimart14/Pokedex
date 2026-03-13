@@ -1,8 +1,7 @@
-import PokemonCard from "../../components/PokemonCard";
 import type { PokemonDetailResponse } from "../../interface/pokemonDetail";
-import { pokemonListService, pokemonDetailService } from "../../service";
-import React, { useEffect, useState } from "react";
-import { Routes, Route, useParams, Link } from "react-router-dom";
+import { pokemonDetailService } from "../../service";
+import { useEffect, useState } from "react";
+import { useParams, Link } from "react-router-dom";
 import { typeColor, typeBgColor } from "../../utils/typesColor";
 
 type pokemonType = {
